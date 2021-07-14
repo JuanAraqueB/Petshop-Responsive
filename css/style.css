@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {font-family: "FontAwesome", src: url('fontawesome-webfont.woff');}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.ofertas{
+    width: 100%;
+    height: 30%;
+    display: inline-flex;
+    justify-content: space-between; 
+    color: white;
+    background-color: black;
+    padding-left: 8vw;
+    padding-right: 6vw;
+    align-items: center;
+    font-size: 14px;
+}
+.categorias{
+    width: 100%;
+    height: 70%;
+    background-color: #F0A83E;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+ul{
+    list-style: none;
+}
+.categorias ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.categorias ul li{
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.huella:before{
+    font-family: "FontAwesome";
+    content: "\f1b0";
+}
+main{
+    margin-top: 0px;
+}
+.plato{
+    width: 100vw;
+    height: 58vh;
+    background-image: url('../img/bowl.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #ABEBC6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 7vw;
+    line-height: 1.5rem;
+
+}
+.plato h1{
+   background-color: white;
+   align-items: center;
+   margin: 1rem;
+   padding: 0.4rem;
+   border-radius: 0.3rem;
+   color: #3C2313;
+}
+.plato p{
+    align-items: center;
+    margin: 1rem;
+}
+.parrafo1{
+    position: relative;
+    right: 5rem;
+}
+.parrafo2{
+    background-color: #F0A83E;
+    position: relative;
+    right: 7.5rem;
+    margin: 1rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: white;
+}
+.mitad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    margin-top: 1.5rem;
+}
+.mitad h1{
+    color: #3C2313;
+}
+.mitad p{
+    color: #666666;
+}
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.producto p{
+   color: #3C2313;
+   font-weight: bold;
+}
+.producto span{
+    color: #F0A83E;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+.correo{
+    background-color: #F0A83E;
+    display: flex;
+    padding-left: 2rem;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.correo span{
+    color: white;
+    padding-left: 2rem;
+}
+footer{
+    position: relative;
+}
+.iconos{
+    background-color: #3C2313;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+.icon{
+    position: relative;
+
+}
+.icon h3{
+    position: relative;
+    color: white;
+    left: 5rem;
+    bottom: 4rem;
+}
+.icon p{
+    position: relative;
+    color: white;
+    left: 5rem;
+    bottom: 4rem;
+}
+.logo-abajo{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 12rem;
+    right: 6rem;
+}
+.pie-pag{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
